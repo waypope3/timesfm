@@ -16,7 +16,7 @@ model developed by Google Research for time-series forecasting.
 
 This open version is not an officially supported Google product.
 
-> **Personal fork note:** I'm using this for experimenting with energy consumption forecasting on hourly meter data. The XReg covariate support added in Oct. 2025 is particularly useful for my use case.
+> **Personal fork note:** I'm using this for experimenting with energy consumption forecasting on hourly meter data. The XReg covariate support added in Oct. 2025 is particularly useful for my use case. My typical setup uses a 720-hour (30-day) context window with a 24-hour forecast horizon.
 
 **Latest Model Version:** TimesFM 2.5
 
@@ -61,12 +61,4 @@ Since the Sept. 2025 launch, the following improvements have been completed:
 1.  ✅ Flax version of the model for faster inference.
 2.  ✅ Covariate support via XReg (see Oct. 2025 update).
 3.  ✅ Documentation, examples, and agent skill (see `timesfm-forecasting/`).
-4.  ✅ Fine-tuning example with LoRA via HuggingFace Transformers + PEFT (see `timesfm-forecasting/examples/finetuning/`).
-5.  ✅ Unit tests for core layers, configs, and utilities (see `tests/`).
-
-### Install
-
-1.  Clone the repository:
-    ```shell
-    git c
-```
+4.  ✅ Fine-tuning example with LoRA via HuggingFace T
